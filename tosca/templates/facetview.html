@@ -1361,7 +1361,7 @@ jQuery(document).ready(function($) {
     <div class="container">
       <a class="brand" href="#">{{ config['TOSCA_TITLE'] }}{%if config['SHOW_BADGE'] %}<span class="badge badge-important">{{ config['TOSCA_TITLE_BADGE'] }}</span>{% endif %}</a>
       <ul class="nav">
-        <li><a href="http://aria.jpl.nasa.gov">Home</a></li>
+        <li><a href="http://ava.jpl.nasa.gov">Home</a></li>
         <li><a href="{{ url_for('views/main.index') }}">Facet Search</a></li>
         {% if g.user.is_authenticated and g.user.id == config['OPS_USER'] %}
         <li><a href="{{ config['FIGARO_URL'] }}">Jobs</a></li>

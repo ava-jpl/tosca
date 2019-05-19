@@ -9,7 +9,7 @@
     <meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible'>
     <meta content='width=device-width' name='viewport'>
     <!-- / DYNAMIC: title = 'page_title' -->
-    <title>Facet Search</title>
+    <title>ASTER Volcano Archive Facet Search</title>
     <link href="{{ url_for('static', filename='jpl/assets/stylesheets/manifest.css') }}" rel="stylesheet" type="text/css" media="all" />
     <!--<link href="{{ url_for('static', filename='jpl/assets/stylesheets/vendor/jquery.fancybox.css') }}" rel="stylesheet" type="text/css" />-->
     <link href="{{ url_for('static', filename='jpl/assets/stylesheets/print.css') }}" rel="stylesheet" type="text/css" media="print" />
@@ -67,7 +67,7 @@
               <article>
                 <header id='page_header'>
                   <h1 class='article_title'>
-                    Facet Search <h2>faceted search interface for GeoRegionQuery</h2>
+                    ASTER Volcano Archive Facet Search <h2>HySDS faceted search interface</h2>
                   </h1>
                 </header>
                 <div class='clearfix' id='primary_column'>
@@ -75,11 +75,11 @@
                     <h2>Sign In</h2>
                     {{ form.hidden_tag() }}
                     <p>
-                      <label for="username">JPL username</label>
+                      <label for="username">username</label>
                       {{ form.username(size=80) }}<br/>
                     </p>
                     <p>
-                      <label for="password">JPL password</label>
+                      <label for="password">password</label>
                       {{ form.password(size=80) }}<br/>
                     </p>
                     <p><input type="submit" value="Sign In"></p>
@@ -145,8 +145,8 @@
               </nav>
             </div>
             <div class='credits'>
-              <span class='credits_manager'>Site Manager: Hook Hua</span>
-              <span class='credits_webmaster'>Webmasters: Gerald Manipon, Michael Starch, Lan Dang</span>
+              <span class='credits_manager'>Site Managers: Dave Pieri, Ashley Davies</span>
+              <span class='credits_webmaster'>Webmasters: Justin Linick, Alex Torres, Howard Tan</span>
             </div>
           </section>
         </footer>
